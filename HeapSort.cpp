@@ -5,8 +5,8 @@ using namespace std;
 
 void MaxHeapify(int* A, int i, int heapsize)
 {
-    int l = 2*i + 1;
-    int r = 2*i + 2;
+    int l = 2 * i + 1;
+    int r = 2 * i + 2;
     int largest = i;
 
     if (l < heapsize && A[l] > A[largest])
